@@ -131,8 +131,7 @@ class RVData2Compiler
 
       else
         clear_line
-        print "\r#{RED_COLOR}Skipped #{@rvdata2_path}.#{RESET_COLOR}\n"
-
+        exit(1)
       end
 
     end
